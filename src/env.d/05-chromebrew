@@ -7,3 +7,6 @@ export TMPDIR="${CREW_PREFIX}/tmp"
 
 # Give TMPDIR standard permissions
 sudo chmod 1777 "${TMPDIR}"
+
+# Add chromebrew bin dir to path
+export PATH="${CREW_PREFIX}/lib/crew/bin:$PATH"
